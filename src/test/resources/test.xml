@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<serverlist>
+    <server>
+        <id>0</id>
+        <name>ServerName-0</name>
+    </server>
+    <server>
+        <id>1</id>
+        <name>ServerName-1</name>
+    </server>  
+</serverlist>

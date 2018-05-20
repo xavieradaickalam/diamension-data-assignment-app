@@ -1,0 +1,15 @@
+
+CREATE USER 'sqluser'@'localhost'  IDENTIFIED BY 'sqluser01';
+
+GRANT ALL PRIVILEGES ON *.* TO 'sqluser'@'localhost' WITH GRANT OPTION;
+
+CREATE DATABASE SDB;
+
+USE SDB;
+
+CREATE TABLE SERVER (
+   ID CHAR(128) NOT NULL, 
+   NAME varchar(255) NOT NULL,
+   PRIMARY KEY (ID)
+);
+
